@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+android:orientation="vertical"
+        tools:ignore="HardcodedText,SpUsage,TextSizeCheck"
+        android:background="@android:color/holo_purple">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="30sp"
+            android:background="@drawable/pic"
+            tools:ignore="ContentDescription,ImageContrastCheck"
+
+
+            />
+
+
+
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:width="300dp"
+            android:height="30dp"
+            android:background="@android:color/holo_red_dark"
+            android:gravity="center"
+            android:text="Image is visible now  !"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            tools:ignore="TextSizeCheck" />
+
+        <ToggleButton
+            android:id="@+id/toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textOff="Hide"
+            android:textOn="Show"
+android:background="@android:color/holo_red_dark"
+
+            tools:ignore="TextContrastCheck" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
